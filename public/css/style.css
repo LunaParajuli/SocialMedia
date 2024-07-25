@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.post-container {
+    width: 600px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin: 20px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.post-header,
+.post-actions,
+.post-likes,
+.post-caption,
+.post-comments,
+.add-comment {
+    padding: 16px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #efefef;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-info {
+    flex-grow: 1;
+}
+
+.username {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.location {
+    color: #8e8e8e;
+}
+
+.follow-btn {
+    background-color: #0095f6;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+}
+
+.post-actions button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.post-actions {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+}
+
+.post-likes {
+    font-weight: bold;
+}
+
+.post-caption,
+.post-comments {
+    border-bottom: 1px solid #efefef;
+}
+
+.add-comment {
+    display: flex;
+    align-items: center;
+}
+
+.add-comment input {
+    border: none;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.add-comment button {
+    background-color: #0095f6;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
